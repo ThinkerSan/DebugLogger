@@ -1,0 +1,21 @@
+{
+  "name": "DebugLogger",
+  "version": "1.0.0",
+  "description": "A simple and convenient debug logger for Arduino and other platforms with C++ << operator overloading.",
+  "keywords": "debug, logger, print, serial, arduino, esp32, esp8266, c++",
+  "authors": {
+    "name": "ThinkerSan",
+    "url": "https://github.com/ThinkerSan/DebugLogger"
+  },
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/ThinkerSan/DebugLogger",
+  "frameworks": "arduino",
+  "platforms": [
+    "espressif32",
+    "espressif8266",
+    "atmega328p"
+  ],
+  "build": {
+    "srcDir": "src"
+  }
+}
